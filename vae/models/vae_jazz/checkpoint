@@ -1,0 +1,3 @@
+model_checkpoint_path: "/home/carot/deepmusic/vae/models/checkpoints/model-ep_9980-9981"
+all_model_checkpoint_paths: "/home/carot/deepmusic/vae/models/checkpoints/model-ep_9960-9961"
+all_model_checkpoint_paths: "/home/carot/deepmusic/vae/models/checkpoints/model-ep_9980-9981"

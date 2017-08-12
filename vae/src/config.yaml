@@ -1,0 +1,25 @@
+---
+general:
+    model_name: 'BasicVariationalAutoencoder'
+    random_seed: 42
+    # input_file: 'deepmusic/data/sequence_examples/jazz_sequence_examples/training_melodies.tfrecord'
+    input_file: 'deepmusic/data/sequence_examples/bach_sequence_examples/training_melodies.tfrecord'
+    midi_dir: 'deepmusic/vae/models/generated_midis/'
+    result_dir: 'deepmusic/vae/models/checkpoints/'
+    tb_dir: 'deepmusic/vae/models/tensorboard/'
+    logging: 'INFO'
+hparams:
+    max_iter: 10000
+    h1_encoder: 200
+    h2_encoder: 200
+    h1_decoder: 200
+    h2_decoder: 200
+    n_latent: 50
+    lr: 0.001
+    batch_size: 128
+    activation_fct: 'tf.nn.elu()'
+    qpm: 120
+    n_steps: 100
+train: True
+generate: False
+

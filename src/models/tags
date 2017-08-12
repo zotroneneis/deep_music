@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BasicModel	basic_model.py	/^class BasicModel(object):$/;"	c
+HOME	basic_model.py	/^HOME = os.path.expanduser('~')$/;"	v
+__all__	__init__.py	/^__all__ = [$/;"	v
+__init__	basic_model.py	/^    def __init__(self, config):$/;"	m	class:BasicModel
+build_graph	basic_model.py	/^    def build_graph(self, graph):$/;"	m	class:BasicModel
+generate	basic_model.py	/^    def generate(self):$/;"	m	class:BasicModel
+get_best_config	basic_model.py	/^    def get_best_config(self):$/;"	m	class:BasicModel
+get_model_class	__init__.py	/^def get_model_class(config):$/;"	f
+get_random_config	basic_model.py	/^    def get_random_config(fixed_params={}):$/;"	m	class:BasicModel
+init	basic_model.py	/^    def init(self):$/;"	m	class:BasicModel
+learn_from_epoch	basic_model.py	/^    def learn_from_epoch(self):$/;"	m	class:BasicModel
+make_model	__init__.py	/^def make_model(config):$/;"	f
+save	basic_model.py	/^    def save(self, epoch_id):$/;"	m	class:BasicModel
+set_model_props	basic_model.py	/^    def set_model_props(self):$/;"	m	class:BasicModel
+train	basic_model.py	/^    def train(self, save_every=1):$/;"	m	class:BasicModel

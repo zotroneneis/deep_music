@@ -1,0 +1,33 @@
+---
+general:
+    # model_name: 'BasicModel'
+    model_name: 'AttentionModel'
+    random_seed: 42
+    input_file: 'deepmusic/data/sequence_examples/jazz_sequence_examples/training_melodies.tfrecord'
+    test_file: 'deepmusic/data/sequence_examples/jazz_sequence_examples/eval_melodies.tfrecord'
+    midi_dir: 'deepmusic/models/generated_midis/'
+    result_dir: 'deepmusic/models/checkpoints/'
+    tb_dir: 'deepmusic/models/checkpoints/'
+    logging: 'INFO'
+hparams:
+    max_iter: 10000
+    n_epochs: 5000
+    dropout_keep_prob: 0.5
+    clip_norm: 5
+    lr: 0.001
+    batch_size: 128
+    n_layers: 2
+    n_hidden: 128
+    qpm: 120
+preprocess:
+    min_note: 48
+    max_note: 84
+    transpose_to_key: 0
+generate:
+    # primer: [14, 0, 14, 0, 21, 0, 21, 0]
+    # primer: [0,0,0,0,0,18,0,1,16,1,23,0,21,0,0,0,1,0,23,0,1,0,18,0,1]
+    # primer: [0]
+    primer: [14]
+train: True
+test: False
+generate_music: False
