@@ -7,6 +7,8 @@ In addition, we trained and tested a variational autoencoder on the same task.
 
 All code is written in Python and uses TensorFlow. 
 
+Project authors: Anna-Lena Popkes, Pascal Wenker
+
 Project Organization
 ------------
 
