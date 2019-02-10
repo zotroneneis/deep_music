@@ -1,7 +1,7 @@
 deepmusic
 ==============================
 
-The main part of this project is based on exploring the ability of different recurrent Long Short-Term Memory architectures to generate novel monophonic melodies. All details about this part of the project can be found in the corresponding report.
+The main part of this project is based on exploring the ability of different recurrent Long Short-Term Memory architectures to generate novel monophonic melodies. All details about this part of the project can be found in the corresponding [report](https://github.com/zotroneneis/deep_music/blob/master/reports/report_deepmusic.pdf).
 
 In addition, we trained and tested a variational autoencoder on the same task.
 
